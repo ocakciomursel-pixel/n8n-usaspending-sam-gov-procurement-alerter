@@ -1,0 +1,28 @@
+{
+  "name": "@lucacelli/n8n-usaspending-sam-gov-procurement-alerter",
+  "version": "2.0.0",
+  "description": "Automated n8n JSON workflow template for querying official USAspending.gov federal award and grant endpoints with Slack/Postgres webhook routing.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "n8n-usaspending-sam-gov-procurement-alerter": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js --demo"
+  },
+  "keywords": [
+    "n8n",
+    "n8n-workflow",
+    "usaspending",
+    "govtech",
+    "public-procurement",
+    "federal-grants",
+    "open-data",
+    "webhook-automation",
+    "api-integration",
+    "slack-bot"
+  ],
+  "author": "Lucacelli Data Engineering",
+  "license": "MIT"
+}
